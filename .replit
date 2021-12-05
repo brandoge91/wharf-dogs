@@ -1,0 +1,2 @@
+run="sh bash/main.sh"
+runm="export GOOGLE_APPLICATION_CREDENTIALS='/home/runner/wharf-dogs/config.json' && node index.js mac.jpg --debug"

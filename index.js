@@ -2,7 +2,7 @@
 const vision = require('@google-cloud/vision');
 const fs = require('fs');
 const db = require('quick.db')
-const exec = require('child_process').exec
+const exec = require('child_process').exec;
 
 async function go () {
 const debug = process.argv[3]
